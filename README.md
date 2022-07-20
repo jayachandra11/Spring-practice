@@ -1,3 +1,3 @@
 # Spring boot practice project
 
-In this project I practiced spring service layer, persistence layer, presentation layer and security
+In this project I practiced spring service layer, persistence layer, presentation layer, security and SMTP
