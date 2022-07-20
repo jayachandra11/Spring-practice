@@ -1,0 +1,26 @@
+databaseChangeLog:
+  - changeSet:
+      id: modifyTableStudentAddColumnCreatedDate
+      author: Jaya Chandra
+      changes:
+      - sqlFile:
+          dbms: mysql
+          path: scripts/modifyTableStudentAddColumnCreatedDate.sql
+          relativeToChangelogFile: true
+databaseChangeLog:
+  - changeSet:
+      id: modifyTableStudentAddColumnCreatedDate2
+      author: Jaya Chandra
+      changes:
+      - sqlFile:
+          dbms: mysql
+          path: scripts/modifyTableStudentAddColumnCreatedDate2.sql
+          relativeToChangelogFile: true
+  - changeSet:
+      id: create_table_user
+      author: Jaya Chandra
+      changes:
+      - sqlFile:
+          dbms: mysql
+          path: scripts/create_table_user.sql
+          relativeToChangelogFile: true
